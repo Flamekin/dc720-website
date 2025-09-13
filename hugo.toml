@@ -1,0 +1,5 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'DC 720: Local DEFCON Group for Boulder County, CO'
+pluralizelisttitles = false
+
