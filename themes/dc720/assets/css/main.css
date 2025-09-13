@@ -1,0 +1,133 @@
+:root {
+	color-scheme: light dark;
+
+	--body-bg : #001200;
+	--content-light-bg : #bbbbbb;
+	--content-dark-bg : #242a29;
+	--content-light-text-color : #000000;
+	--content-dark-text-color : #e6e6e6;
+	--content-bg : light-dark(var(--content-light-bg), var(--content-dark-bg));
+	--content-text-color : light-dark(var(--content-light-text-color), var(--content-dark-text-color));
+	--text-outside-content-light : #ddffcc;
+	--text-outside-content-dark : #ddffcc;
+	--text-outside-content : light-dark(var(--text-outside-content-light), var(--text-outside-content-dark));
+}
+
+body {
+	font-size: 2em;
+}
+
+header {
+	display: flex;
+	font-family: monospace;
+}
+
+img#logo {
+	height: 8em;
+	width: 8em;
+}
+
+.nav_link {
+	flex: 1;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+	font-family: monospace;
+	text-decoration: none;
+	text-shadow: 1px 0 #00cccc, -1px 0 #cccc00, 2px 0 #0000cc,
+			-2px 0 #cc0000;
+	color: var(--text-outside-content);
+}
+
+a.nav_link:hover {
+	color: #ffffff;
+}
+
+div#logo_column {
+	flex: 0.25;
+	background-color: #111111;
+	color: var(--text-outside-content);
+}
+
+nav#nav_column {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	flex: 1;
+	margin: auto;
+}
+
+div#primary_container {
+	width: 75%;
+	max-width: 1120px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	background-color: var(--body-bg);
+}
+
+main {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	font-family: monospace;
+	background-color: var(--content-bg);
+	color: var(--content-text-color);
+	padding-left: 3.4em;
+	padding-right: 3.4em;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+}
+
+main h1, h2, h3 {
+	margin-top: 0.2em;
+}
+
+main h1 {
+	text-shadow: 1px 0 #00ffff, -1px 0 #ffff00, 2px 0 #0000ff,
+			-2px 0 #ff0000;
+	color: #ffffff;
+	background-color: #00000066;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+	margin-bottom: 0.8em;
+}
+
+main h2, h3 {
+	margin-bottom: 0.45em;
+}
+
+main p {
+	margin-top: 1.4em;
+	margin-bottom: 1.4em;
+}
+
+footer {
+	color: var(--text-outside-content);
+}
+
+@media (width < 750px) {
+	body{
+		font-size: 1.4em;
+	}
+
+	div#primary_container {
+		width : 100%;
+	}
+
+	.nav_link {
+		text-shadow: none;
+	}
+	main h1 {
+		text-shadow: none;
+	}
+
+	main{
+		padding-left:0.5em;
+		padding-right:0.5em;
+		padding-top:0.5em;
+		padding-bottom:0.5em;
+	}
+}
