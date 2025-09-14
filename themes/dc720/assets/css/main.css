@@ -104,6 +104,17 @@ main p {
 	margin-bottom: 1.4em;
 }
 
+p.meetingtime {
+	text-align: center;
+	background-color: light-dark(#aaffff, #449999);
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+p.meetingtime time {
+	font-weight: bold;
+}
+
 footer {
 	color: var(--text-outside-content);
 }

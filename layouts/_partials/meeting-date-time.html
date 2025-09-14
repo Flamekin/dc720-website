@@ -1,0 +1,9 @@
+  {{ if .Param "meetingdate" }}
+  {{ $nextmeetingdate := time.AsTime (.Param "meetingdate") }}
+  {{ $dateMachine := time.Format "2006-01-02T15:04:05-07:00" $nextmeetingdate }}
+  <p class="meetingtime">Meeting Time: <time datetime = "{{ $dateMachine }}">
+    {{ time.Format ":date_medium" $nextmeetingdate }}
+    {{ time.Format ":time_long" $nextmeetingdate }}
+  </time></p>
+  {{ end }}
+
