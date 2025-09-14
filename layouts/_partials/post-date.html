@@ -1,6 +1,6 @@
-{{ if .Site.getPage "meeting" | .inSection }}
-{{ partial "meeting-date-time.html" }}
-{{ else if .Site.getPage "blog" | .inSection }}
+{{ if .Site.GetPage "meeting" | .InSection }}
+{{ partial "meeting-date-time.html" . }}
+{{ else if .Site.GetPage "blog" | .InSection }}
   {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
   {{ $dateHuman := .Date | time.Format ":date_long" }}
   <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>

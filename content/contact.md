@@ -4,8 +4,6 @@ draft = true
 title = 'Contact'
 +++
 
-# Contact
-
 ## Organizer Email & Point of Contact
 
 Email for the group: (TBD)
