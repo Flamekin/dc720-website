@@ -2,7 +2,6 @@
 {{ $meetingpages := where .Site.RegularPages "Section" "meeting" }}
 {{ range $meetingpages.Limit 1 }}
   <h1>Next Meeting</h1>
-  <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
 {{ partial "meeting-date-time.html" . }}
   <p>{{ .Summary }}</p>
 {{ else }}
