@@ -22,6 +22,11 @@ header {
 	font-family: monospace;
 }
 
+footer {
+  font-size: 0.65em;
+  text-align: center;
+}
+
 img#logo {
 	height: 8em;
 	width: 8em;
