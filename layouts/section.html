@@ -1,9 +1,15 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ partial "post-date.html" . }}
-    {{ .Summary }}
+  {{ $meetingSection := .Site.GetPage "meeting" }}
+  {{ $blogSection := .Site.GetPage "blog" }}
+  {{ if eq . $meetingSection }}
+    {{ partial "meeting-section.html" . }}
+  {{ else }}
+    <h1>{{ .Title }}</h1>
+    {{ range .Pages }}
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      {{ partial "post-date.html" . }}
+      {{ .Summary }}
+    {{ end }}
   {{ end }}
+  {{ .Content }}
 {{ end }}

@@ -1,0 +1,32 @@
+  {{ $firstMeetingPage := .Page }}
+  {{ $meetingIsUpcoming := false }}
+  {{ range .Pages.Limit 1}}
+    {{ $firstMeetingPage = .Page }}
+    {{ if .Param "meetingdate" }}
+      {{ $nextMeetingDate := time.AsTime (.Param "meetingdate") }}
+      {{ $meetingIsUpcoming = time.Now.Before $nextMeetingDate }}
+    {{ end }}
+    {{ if $meetingIsUpcoming }}
+      <h1>Next Meeting</h1>
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      {{ partial "post-date.html" . }}
+      {{ .Summary }}
+    {{ else }}
+      <h1>No Upcoming Meeting</h1>
+    {{ end }}
+  {{ end }}
+  <h1>Past Meetings</h1>
+  {{ $hasPastMeeting := false }}
+  {{ range .Pages }}
+    {{ if eq $firstMeetingPage .Page }}
+      <p></p>
+    {{ else }}
+      {{ $hasPastMeeting = true }}
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      {{ partial "post-date.html" . }}
+      {{ .Summary }}
+    {{ end }}
+  {{ end }}
+  {{ if not $hasPastMeeting }}
+  <p>No past meetings</p>
+  {{ end }}
