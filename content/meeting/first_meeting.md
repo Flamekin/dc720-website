@@ -5,8 +5,10 @@ title = 'First Meeting'
   meetingdate = '2025-10-03T18:00:00-06:00'
 +++
 
-We will be meeting at MMM HQ in Downtown Longmont (712 Main Street). The topic is (TBD).
+712 Main Street
+
+Longmont, CO
 
 <!--more-->
 
-Free downtown parking nearby is available in the lot off 6th and Kimbark. There is also more at (fill this in when we have more information).
+Free downtown parking nearby is available in the lot off 6th and Kimbark.
