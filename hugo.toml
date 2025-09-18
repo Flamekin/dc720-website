@@ -3,4 +3,7 @@ languageCode = 'en-us'
 title = 'DC 720: Local DEFCON Group for Boulder County, CO'
 pluralizelisttitles = false
 theme = 'dc720'
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
