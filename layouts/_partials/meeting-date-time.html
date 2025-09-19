@@ -1,9 +1,16 @@
+{{ $nextMeetingStartDate := time.Now }}
+{{ $nextMeetingEndDate := time.Now }}
+{{ $nextMeetingDuration := time.Duration "hour" 3 }}
   {{ if .Param "meetingdate" }}
-  {{ $nextmeetingdate := time.AsTime (.Param "meetingdate") }}
-  {{ $dateMachine := time.Format "2006-01-02T15:04:05-07:00" $nextmeetingdate }}
+  {{ $nextMeetingStartDate = time.AsTime (.Param "meetingdate") }}
+  {{ $nextMeetingEndDate = $nextMeetingStartDate.Add $nextMeetingDuration }}
+  {{ if .Param "endDate" }}
+    {{ $nextMeetingEndDate = time.AsTime (.Param "endDate") }}
+  {{ end }}
+  {{ $dateMachine := time.Format "2006-01-02T15:04:05-07:00"
+$nextMeetingStartDate }}
   <p class="meetingtime">Meeting Time: <time datetime = "{{ $dateMachine }}">
-    {{ time.Format ":date_medium" $nextmeetingdate }}
-    {{ time.Format ":time_long" $nextmeetingdate }}
+    {{ time.Format "January 02, 2006 from 3:04 PM" $nextMeetingStartDate }} to {{ time.Format "3:04 PM" $nextMeetingEndDate }}
   </time></p>
   {{ end }}
 
