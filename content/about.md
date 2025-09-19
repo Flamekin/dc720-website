@@ -5,6 +5,6 @@ layout = 'information'
 title = 'About'
 +++
 
-In 1998, the area code '720' was added as an option for phone numbers in the Front Range metro area (Denver and Boulder)
+Local Defcon group for Boulder County, CO and the Front Range cities North of Denver (dc303.org) and South of Fort collins (dc970.org).
 
-This group will provide a meeting place for the security and/or hacker community who find themselves in between the Denver group and Ft. Collins group and would prefer not to commute so far in either direction.
+We meet at the [MMMHQ coworking space](https://maps.app.goo.gl/xB7mfrpdFG9VAg5J9) the first Friday of each month.
