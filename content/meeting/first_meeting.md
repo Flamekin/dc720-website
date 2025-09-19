@@ -7,8 +7,13 @@ title = 'First Meeting'
 
 712 Main Street
 
-Longmont, CO
+Longmont, CO 80501
+
+Topic: First meeting post-hiatus/Bsides Denver recap
 
 <!--more-->
+Street parking on Main Street available.
 
-Free downtown parking nearby is available in the lot off 6th and Kimbark.
+There is a public parking garage across the street underneath the Roosevelt Park Apartments (600 Longs Peak Ave)
+
+Additional free downtown parking nearby is available in the lot off 6th and Kimbark.
