@@ -9,6 +9,7 @@
     {{ if $meetingIsUpcoming }}
       <h1>Next Meeting</h1>
       <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      {{ partial "author.html" . }}
       {{ partial "post-date.html" . }}
       {{ .Summary }}
       <p class="readmore"><a href="{{ .RelPermalink }}">More information...</a></p>
@@ -24,6 +25,7 @@
     {{ else }}
       {{ $hasPastMeeting = true }}
       <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      {{ partial "author.html" . }}
       {{ partial "post-date.html" . }}
       {{ .Summary }}
       <p class="readmore"><a href="{{ .RelPermalink }}">Read recap...</a></p>

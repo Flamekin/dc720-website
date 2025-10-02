@@ -1,0 +1,11 @@
+{{ $authorPrefix := "" }}
+{{ if .Site.GetPage "meeting" | .InSection }}
+  {{ $authorPrefix = "by " }}
+{{ else if .Site.GetPage "blog" | .InSection }}
+  {{ $authorPrefix = "by " }}
+{{ else }}
+{{ end }}
+{{ if and $authorPrefix (.Param "author") }}
+<p class="author">{{ $authorPrefix }}{{ .Param "author" }}</p>
+{{ end }}
+
