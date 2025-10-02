@@ -14,6 +14,12 @@
 	--text-outside-content-light : #ddffcc;
 	--text-outside-content-dark : #ddffcc;
 	--text-outside-content : light-dark(var(--text-outside-content-light), var(--text-outside-content-dark));
+	--link-outside-content : #22ffaa;
+	--content-link-color : light-dark(#006622, var(--link-outside-content));
+}
+
+a, a:visited {
+	color: var(--link-outside-content);
 }
 
 body {
@@ -35,7 +41,7 @@ img#logo {
 	width: 8em;
 }
 
-.nav_link {
+a.nav_link {
 	flex: 1;
 	text-align: center;
 	font-weight: bold;
@@ -44,6 +50,10 @@ img#logo {
 	text-decoration: none;
 	text-shadow: 1px 0 #00cccc, -1px 0 #cccc00, 2px 0 #0000cc,
 			-2px 0 #cc0000;
+	color: var(--text-outside-content);
+}
+
+a.nav_link:hover {
 	color: var(--text-outside-content);
 }
 
@@ -86,6 +96,9 @@ main {
 	padding-right: 3.4em;
 	padding-top: 0.6em;
 	padding-bottom: 0.6em;
+	a, a:visited {
+		color: var(--content-link-color);
+	}
 }
 
 main h1, h2, h3 {
