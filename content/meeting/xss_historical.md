@@ -1,0 +1,29 @@
++++
+title = "Cross Site Scripting Meeting"
+description = ""
+tags = [
+    "meetings",
+]
+date = "2019-02-05"
+categories = [
+    "meetings",
+]
+[params]
+  meetingDate = '2019-02-05T18:00:00-06:00'
+  endDate = '2019-02-05T20:00:00-08:00'
+  author = 'James (@punkcoder)'
++++
+
+Cross-Site Scripting
+
+<!--more-->
+## Recap
+
+At this months meeting we had a good turnout to talk about the ins and outs of
+cross site scripting and how it can be used.  Unfortunately I forgot to take a
+picture, but that's the way that it goes sometimes.
+
+Additionally for the meeting we introduced the new logo for DC720, which will be
+added to the site soon. I have also added all of the future dates that we have
+scheduled to the meetings page so that you can start planning ahead for the
+meetings.
