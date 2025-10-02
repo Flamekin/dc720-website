@@ -4,9 +4,12 @@
 	--body-bg : #001200;
 	--content-light-bg : #bbbbbb;
 	--content-dark-bg : #242a29;
+	--content-light-header : #0a0a0a;
+	--content-dark-header : #ffffff;
 	--content-light-text-color : #000000;
 	--content-dark-text-color : #e6e6e6;
 	--content-bg : light-dark(var(--content-light-bg), var(--content-dark-bg));
+	--content-header-color : light-dark(var(--content-light-header), var(--content-dark-header));
 	--content-text-color : light-dark(var(--content-light-text-color), var(--content-dark-text-color));
 	--text-outside-content-light : #ddffcc;
 	--text-outside-content-dark : #ddffcc;
@@ -87,6 +90,7 @@ main {
 
 main h1, h2, h3 {
 	margin-top: 0.2em;
+	text-align: center;
 }
 
 main h1 {
@@ -96,12 +100,18 @@ main h1 {
 	background-color: #00000066;
 	padding-left: 5px;
 	padding-right: 5px;
-	text-align: center;
 	margin-bottom: 0.8em;
+}
+
+main h2 a {
+	text-decoration: none;
 }
 
 main h2, h3 {
 	margin-bottom: 0.45em;
+	a, a:visited {
+		color: var(--content-header-color);
+	}
 }
 
 main p {
