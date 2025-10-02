@@ -11,6 +11,8 @@
 	--content-bg : light-dark(var(--content-light-bg), var(--content-dark-bg));
 	--content-header-color : light-dark(var(--content-light-header), var(--content-dark-header));
 	--content-text-color : light-dark(var(--content-light-text-color), var(--content-dark-text-color));
+	--content-subsection-background-color : light-dark(#ffffff55,#44444455);
+	--content-emphasized-subsection-background-color : light-dark(#ffffff,#444444);
 	--text-outside-content-light : #ddffcc;
 	--text-outside-content-dark : #ddffcc;
 	--text-outside-content : light-dark(var(--text-outside-content-light), var(--text-outside-content-dark));
@@ -134,7 +136,7 @@ main p {
 
 p.meetingtime {
 	text-align: center;
-	background-color: light-dark(#ffffff, #444444);
+	background-color: var(--content-emphasized-subsection-background-color);
 	color: var(--content-header-color);
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
@@ -146,13 +148,13 @@ p.meetingtime time {
 
 p.author {
 	text-align: end;
-	background-color: light-dark(#ffffff, #444444);
+	background-color: var(--content-subsection-background-color);
 	color: var(--content-header-color);
 }
 
 p.readmore {
 	text-align: center;
-	background-color: light-dark(#ffffff, #444444);
+	background-color: var(--content-subsection-background-color);
 	color: var(--content-header-color);
 }
 
