@@ -121,13 +121,20 @@ main p {
 
 p.meetingtime {
 	text-align: center;
-	background-color: light-dark(#ffffff, #999999);
+	background-color: light-dark(#ffffff, #444444);
+	color: var(--content-header-color);
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
 
 p.meetingtime time {
 	font-weight: bold;
+}
+
+p.author {
+	text-align: end;
+	background-color: light-dark(#ffffff, #444444);
+	color: var(--content-header-color);
 }
 
 footer {
