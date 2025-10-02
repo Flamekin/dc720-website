@@ -4,6 +4,8 @@
   <h1>Next Meeting</h1>
 {{ partial "meeting-date-time.html" . }}
   <p>{{ .Summary }}</p>
+  <p class="readmore"><a href="{{ .RelPermalink }}">More information...</a></p>
+
 {{ else }}
   <h1>No Upcoming Meeting</h1>
 {{ end}}

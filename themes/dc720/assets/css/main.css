@@ -150,6 +150,12 @@ p.author {
 	color: var(--content-header-color);
 }
 
+p.readmore {
+	text-align: center;
+	background-color: light-dark(#ffffff, #444444);
+	color: var(--content-header-color);
+}
+
 footer {
 	color: var(--text-outside-content);
 }
