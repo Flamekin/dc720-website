@@ -1,6 +1,6 @@
 +++
 date = '2025-09-14T16:37:05-06:00'
-title = 'First Meeting'
+title = 'First Meeting After Hiatus'
 [params]
   meetingdate = '2025-10-03T18:00:00-06:00'
 +++
