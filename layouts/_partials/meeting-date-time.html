@@ -1,8 +1,8 @@
 {{ $nextMeetingStartDate := time.Now }}
 {{ $nextMeetingEndDate := time.Now }}
 {{ $nextMeetingDuration := time.Duration "hour" 3 }}
-  {{ if .Param "meetingdate" }}
-  {{ $nextMeetingStartDate = time.AsTime (.Param "meetingdate") }}
+  {{ if .Param "meetingDate" }}
+  {{ $nextMeetingStartDate = time.AsTime (.Param "meetingDate") }}
   {{ $nextMeetingEndDate = $nextMeetingStartDate.Add $nextMeetingDuration }}
   {{ if .Param "endDate" }}
     {{ $nextMeetingEndDate = time.AsTime (.Param "endDate") }}
