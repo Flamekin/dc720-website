@@ -5,9 +5,14 @@ title = 'November 2025 Meeting'
   meetingDate = '2025-11-07T18:00:00-06:00'
 +++
 
-Topic & itinerary TBD
+Topic: Blue Team Exercises
 
-Same location: 712 Main Street, Longmont, CO 80501
+6:00 PM - Social/Food
+6:30 PM – Introductions/Announcements/News
+7:00 PM – Blue team activities with our resident SOC analyst
+8:00 PM – Conference planning/Open discussion/Sticker giveaway
+
+Location: 712 Main Street, Longmont, CO 80501
 
 <!--more-->
 Street parking on Main Street available.
