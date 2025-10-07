@@ -8,8 +8,11 @@ title = 'November 2025 Meeting'
 Topic: Blue Team Exercises
 
 6:00 PM - Social/Food
+
 6:30 PM – Introductions/Announcements/News
+
 7:00 PM – Blue team activities with our resident SOC analyst
+
 8:00 PM – Conference planning/Open discussion/Sticker giveaway
 
 Location: 712 Main Street, Longmont, CO 80501
