@@ -9,7 +9,7 @@ title = 'January 2026 Meeting'
 
 6:30 PM – Introductions/Announcements/News
 
-7:00 PM – Topic and/or Workshop
+7:00 PM – Introduction to USB Rubber Ducky/Keystroke Injection
 
 8:00 PM – Conference planning/Open discussion/Sticker giveaway
 
