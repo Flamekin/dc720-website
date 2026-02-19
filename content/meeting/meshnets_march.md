@@ -9,7 +9,7 @@ title = 'March 2026 Meeting'
 
 6:30 PM – Introductions/Announcements/News
 
-7:00 PM – TBD
+7:00 PM – Seize the Means of Communication: Meshnet for Emergency Communications During Interesting Times
 
 8:00 PM – Conference planning/Open discussion/Sticker giveaway
 
