@@ -1,6 +1,6 @@
 +++
 date = '2026-03-12T09:04:00-06:00'
-title = 'April 20206 Meeting'
+title = 'April 2026 Meeting'
 [params]
   meetingDate = '2026-04-03T18:00:00-06:00'
 +++
@@ -9,7 +9,7 @@ title = 'April 20206 Meeting'
 
 6:30 PM – Introductions/Announcements/News
 
-7:00 PM – TBD
+7:00 PM – Noise, then Signal: Dissecting a Multi-Vector Social Engineering Attack
 
 8:00 PM – Conference planning/Open discussion/Sticker giveaway
 
