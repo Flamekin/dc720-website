@@ -9,7 +9,7 @@ title = 'May 2026 Meeting'
 
 6:30 PM – Introductions/Announcements/News
 
-7:00 PM – TBD
+7:00 PM – Lockpicking 101
 
 8:00 PM – Conference planning/Open discussion/Sticker giveaway
 
