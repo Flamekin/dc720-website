@@ -9,7 +9,7 @@ title = 'June 2026 Meeting'
 
 6:30 PM – Introductions/Announcements/News
 
-7:00 PM – TBD
+7:00 PM – "Incident Response Playbook: Securing the Nation's Chicken Noodle"
 
 8:00 PM – Conference planning/Open discussion/Sticker giveaway
 
