@@ -9,7 +9,7 @@ title = 'July 2026 Meeting (Post Bsides)'
 
 6:30 PM – Introductions/Announcements/News
 
-7:00 PM – Bsides Boulder recap/discussion
+7:00 PM – Bsides Boulder recap/discussion -- CANCELLED (sorry)
 
 8:00 PM – Conference planning/Open discussion/Sticker giveaway
 
