@@ -9,7 +9,7 @@ title = 'August 20206 Meeting'
 
 6:30 PM – Introductions/Announcements/News
 
-7:00 PM – TBD
+7:00 PM – Defcon 34 Livestream Watch Party
 
 8:00 PM – Open discussion
 
