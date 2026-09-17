@@ -9,9 +9,7 @@ title = 'September 2026 Meeting'
 
 6:30 PM – Introductions/Announcements/News
 
-7:00 PM – TBD
-
-8:00 PM – Open discussion
+7:00 PM – Open discussion
 
 Location: 712 Main Street, Longmont, CO 80501
 

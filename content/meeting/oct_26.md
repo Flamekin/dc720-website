@@ -1,15 +1,15 @@
 +++
-date = '2026-07-15T13:18:59-06:00'
-title = 'August 2026 Meeting'
+date = '2026-09-17T11:44:36-06:00'
+title = 'October 2026 Meeting'
 [params]
-  meetingDate = '2026-08-07T18:00:00-06:00'
+  meetingDate = '2026-10-02T18:00:00-06:00'
 +++
 
 6:00 PM - Social/Food
 
 6:30 PM – Introductions/Announcements/News
 
-7:00 PM – Defcon 34 Livestream Watch Party
+7:00 PM – TBD
 
 8:00 PM – Open discussion
 
